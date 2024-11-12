@@ -788,6 +788,14 @@ html {
   margin-top: 2.25rem;
 }
 
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -925,6 +933,10 @@ html {
 
 .w-full {
   width: 100%;
+}
+
+.w-11\/12 {
+  width: 91.666667%;
 }
 
 .min-w-\[90\%\] {
@@ -2748,6 +2760,10 @@ body{
 @media (min-width: 768px) {
   .md\:min-w-\[600px\] {
     min-width: 600px;
+  }
+
+  .md\:max-w-7xl {
+    max-width: 80rem;
   }
 
   .md\:grid-cols-2 {
